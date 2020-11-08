@@ -7,6 +7,8 @@
 name: Lean_x86_64
 
 on: 
+  repository_dispatch:
+  workflow_dispatch:
   release:
     types: [published]
 
